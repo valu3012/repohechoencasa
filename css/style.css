@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.titulos{
+    font-family: 'Slabo 27px', serif;
+}
+.texto{
+    font-family: 'Assistant', sans-serif;
+}
+/*empieza los cambios nuevos*/
+/* EMPIEZA NAV/HEADER */
+.headerindex{
+   background-color: #A7AA7C;
+   display: flex;
+   flex-direction: row; 
+   justify-content:space-between;
+   border-bottom:solid #F2B5A3 3px;
+   flex-wrap: wrap
+}
+#dropdown{
+    list-style: none;
+    color: #F2B5A3;
+    padding: 8%;
+    text-decoration: none;
+}
+.text{
+    font-size: large;
+}
+#dropdown1{
+    list-style: none;
+    color: #F2B5A3;
+    padding: 8%;
+    text-decoration: none;
+
+}
+#dropdown2{
+    list-style: none;
+    color: #F2B5A3;
+    padding: 8%;
+    text-decoration: none;
+    font-size: large;
+}
+.logo{
+    height: 150px;
+    width: 150px;
+    padding: 1%;
+    position: relative;
+}
+.cocinera{
+    height: 100px;
+    width: 100px;
+}
+header div ul {
+    list-style: none;
+    display: inline-block;
+    color: #52352d;
+}
+.posicionul{
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+}
+.posicionnav{
+    display: flex;
+    flex-direction: row; 
+    align-items: flex-end;
+    justify-content: center;
+}
+header div a{
+    padding: 8%;
+    color: #F2B5A3;
+    text-decoration: none;
+    font-size: large;
+}
+@media screen and (min-width:400px) {
+    #img-movil{
+        display: none;
+    }
+    #out2{
+        display: none;
+    }
+}
+@media screen and (max-width:400px){
+    .logo-movil{
+        height: 100px;
+        width: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #out{
+        display: none;
+    }
+    .out{
+        display: none;
+    }
+    .headerindex-movil{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .menu-movil{
+        font-size:small;
+        margin: auto;
+    }
+    #movil{
+        display: none;
+    }
+    #movil2{
+        display: none;
+    }
+    #img-movil{
+        display: none;
+    }
+    .titulos-movil{
+        font-size: 20px;
+    }
+    #contacto-movil{
+        display: block;
+        align-items: center;
+    }
+    #contacto-movil2{
+        display: block;
+        align-items: center;
+    }
+    .texto-footer{
+        width: auto;
+    }
+    #mapa-movil{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #mapa-movil2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    footer iframe{
+        width: 100px;
+        height: 100px;
+    }
+    .logos-movil{
+        width: 20px;
+        height: 20px;
+    }
+}
+/* TERMINA NAV/HEADER */
+/* grilla */
+#grilla{
+    display: grid;
+    grid-template-rows: 0.85fr 1fr;
+    grid-template-columns: auto;
+    grid-template-areas: 
+    "main main main"
+    "section section aside";
+}
+.main{
+    grid-area: main;
+}
+.section{
+    grid-area: section;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aside{
+    grid-area: aside;
+}
+
+/* EMPIEZA MAIN */
+.titulosh2{
+    padding: 2%;
+    color: #52352d;
+}
+.texto2{
+    padding-left: 15%;
+    color: #52352d;
+}
+.alineacionfoto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3%;
+}
+.fondo{
+    background-image:url(../images/logo-fondos/1x/Mesa\ de\ trabajo\ 1.png);
+    background-repeat: repeat-y;
+    background-size: auto;
+}
+
+/* TERMINA MAIN */
+/* empieza section*/
+div aside img {
+    display: block;
+    padding: 1%;
+}
+div section ul li{
+    padding: 3%;
+}
+div section a{
+    margin-top: 5%;
+}
+/* termina section*/
+/* EMPIEZA FOOTER */
+.instagram{
+    height: 30px;
+    width: 30px;
+}
+.wpp{
+    height: 30px;
+    width: 30px;
+}
+.email{
+    height: 30px;
+    width: 30px;
+}
+footer div ul{
+    list-style: none;
+    display: inline;
+    color: #52352d;
+
+}
+footer div ul li p {
+    list-style: none;
+    display: inline;
+    color: #52352d;
+}
+footer div ul li{
+    padding: 3%;
+    width: 120%;
+    height: 20%;
+}
+footer p {
+    list-style: none;
+    display: inline;
+    color: #52352d;  
+}
+.footerindex{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    background-color: #A7AA7C;
+    border-top: solid #F2B5A3 3px;
+    padding: 1%;
+    align-items: center;
+}
+.centrado{
+    text-align: center;
+    width: 30%;
+    height: 20%;
+    border: 1px;
+}
+/*termina los cambios nuevos*/
+
